@@ -16,9 +16,9 @@ new_list = []
 start = int(input("Enter the start of the range: "))
 end = int(input("Enter the final of the range: "))
 
-for i in range(len(original_list)):
-    if original_list[i] >= start and original_list[i] <= end:
-        new_list.append(original_list[i])
+for i in original_list:
+    if i >= start and i <= end:
+        new_list.append(i)
 
 
 print(sum(new_list))

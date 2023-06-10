@@ -15,10 +15,10 @@ list = ['Juan', 'Felipe', 'Santiago', 'Juan', 'Maria', 'Maria', 'Santiago',
 
 dictionary = {}
 
-for i in range(len(list)):
-    if list[i] in dictionary:
-        dictionary[list[i]] += 1
+for name in list:
+    if name in dictionary:
+        dictionary[name] += 1
     else:
-        dictionary[list[i]] = 1
+        dictionary[name] = 1
 
 print(dictionary)
